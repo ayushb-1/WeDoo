@@ -15,7 +15,7 @@ export const SocketProvider = (props) => {
     );
     return (
         <SocketContext.Provider value={{socket}}>
-            {props.childer}
+            {props.children}
         </SocketContext.Provider>
     )
 }
